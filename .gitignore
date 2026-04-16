@@ -1,17 +1,29 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+*venv/
+env/
+myvirtualenv/
+
+# FastAPI
 .env
-*.db
 
 # Node
 node_modules/
 build/
 dist/
 
-# Logs
-*.log
+# React
+.env
+npm-debug.log
+yarn-error.log
 
-# Editor
-.vscode/
+# OS files
 .DS_Store
+Thumbs.db
