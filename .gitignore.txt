@@ -2,8 +2,9 @@
 __pycache__/
 *.pyc
 .env
+*.db
 
-# React / Node
+# Node
 node_modules/
 build/
 dist/
